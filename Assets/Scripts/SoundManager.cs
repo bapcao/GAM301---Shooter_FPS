@@ -11,11 +11,13 @@ public class SoundManager : MonoBehaviour
 
     public AudioClip UziShot;
     public AudioClip Pistol_FShot;
+    public AudioClip M107Shot;
 
     public AudioSource emptyManagazineSoundUzi;
 
     public AudioSource reloadingSoundUzi;
     public AudioSource reloadingSoundPistol_F;
+    public AudioSource reloadingSoundM107;
 
 
     private void Awake()
@@ -35,10 +37,10 @@ public class SoundManager : MonoBehaviour
         switch (weapon)
         {
             case WeaponModel.Pistol_F:
-                ShootingChannel.PlayOneShot(UziShot);
+                ShootingChannel.PlayOneShot(Pistol_FShot);
             break;
             case WeaponModel.Uzi:
-                ShootingChannel.PlayOneShot(Pistol_FShot);
+                ShootingChannel.PlayOneShot(UziShot);
                 break;
         }
     }

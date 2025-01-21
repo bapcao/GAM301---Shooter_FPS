@@ -36,7 +36,8 @@ public class Weapon : MonoBehaviour
     public enum WeaponModel
     {
         Uzi,
-        Pistol_F
+        Pistol_F,
+        M107
     }
 
     public WeaponModel thisWeaponModel;
@@ -84,7 +85,6 @@ public class Weapon : MonoBehaviour
         // Thay dan
         if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && isReloading == false)
         {
-            Debug.Log("Thay dajn");
             Reload();
             Debug.Log($"isReloading: {isReloading}");
         }
@@ -144,7 +144,7 @@ public class Weapon : MonoBehaviour
         }
 
         // Brust Mode
-        if (currentShootingMode == ShootingMode.Burst && burstBulletsLeft > 1)// we already shoot once before this check
+        if (currentShootingMode == ShootingMode.Burst && burstBulletsLeft > 1) // we already shoot once before this check
         {
             burstBulletsLeft--;
             Invoke("FireWeapon", shootingDelay);
