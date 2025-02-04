@@ -13,7 +13,7 @@ public class ChangeWeapon : MonoBehaviour
     void Start()
     {
         // Start with the pistol
-        EquipWeapon(pistol);
+        //EquipWeapon(pistol);
     }
 
     void Update()

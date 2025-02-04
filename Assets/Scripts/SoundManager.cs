@@ -42,6 +42,9 @@ public class SoundManager : MonoBehaviour
             case WeaponModel.Uzi:
                 ShootingChannel.PlayOneShot(UziShot);
                 break;
+            case WeaponModel.M107:
+                ShootingChannel.PlayOneShot(M107Shot);
+                break;
         }
     }
 
@@ -54,6 +57,9 @@ public class SoundManager : MonoBehaviour
                 break;
             case WeaponModel.Uzi:
                 reloadingSoundUzi.Play();
+                break;
+            case WeaponModel.M107:
+                reloadingSoundM107.Play();
                 break;
         }
     }
