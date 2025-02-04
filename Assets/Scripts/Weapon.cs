@@ -70,11 +70,16 @@ public class Weapon : MonoBehaviour
     void Update()
     {
 
+
+
+
         if (isActiveWeapon)
         {
+            GetComponent<Outline>().enabled = false;
+
+            // Empty Magazine Sound
             if (bulletsLeft == 0 && isShooting)
             {
-                //SoundManager.Instance.emptyManagazineSoundUzi.Play();
                 SoundManager.Instance.emptyManagazineSoundUzi.Play();
             }
 
