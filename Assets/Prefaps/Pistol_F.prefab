@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7136551229214767257}
   - component: {fileID: 7315629695765873146}
   - component: {fileID: 9198938277618885436}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1712156606772759570}
   - component: {fileID: 4034960945142512035}
   - component: {fileID: 8710704861298399033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_Mag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 4618080434220812197}
   - component: {fileID: 9179521653270895009}
   - component: {fileID: 648273658054657793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 2147036103464531030}
   - component: {fileID: 5617898714515763283}
   - component: {fileID: 7904419986024889981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleFlashEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5096,7 +5096,7 @@ GameObject:
   - component: {fileID: 1982288353023016670}
   - component: {fileID: 7567922979437439315}
   - component: {fileID: 7163371610840926331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_BarrelGuard.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5179,7 +5179,7 @@ GameObject:
   - component: {fileID: 7569572510798434845}
   - component: {fileID: 1480019990904207765}
   - component: {fileID: 1685323684966916925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5262,7 +5262,7 @@ GameObject:
   - component: {fileID: 761099539572061640}
   - component: {fileID: 2865486075108507166}
   - component: {fileID: 5363371658305757995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_Receiver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5345,7 +5345,7 @@ GameObject:
   - component: {fileID: 6164408837811148515}
   - component: {fileID: 1526568878319545524}
   - component: {fileID: 3698774967325559995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_BarrelGuard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5428,7 +5428,7 @@ GameObject:
   - component: {fileID: 193036928955337301}
   - component: {fileID: 1359047558286898723}
   - component: {fileID: 3223730073928245836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pistol_F_Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5509,7 +5509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 355682867418779581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}

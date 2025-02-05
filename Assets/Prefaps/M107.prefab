@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 86062175940058456}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3684458076496132269}
   - component: {fileID: 8891648585202168440}
   - component: {fileID: 112827382142586087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 8014882109503228999}
   - component: {fileID: 2408548313874734934}
   - component: {fileID: 862740084812809285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 5319928275544780733}
   - component: {fileID: 7418975615452891590}
   - component: {fileID: 2635448381767890879}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 7180461102198237821}
   - component: {fileID: 8168540920568698739}
   - component: {fileID: 7796491196620682838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: M107
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf34782af02c0c47917978eb56258f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isActiveWeapon: 0
   isShooting: 0
   readyToShoot: 0
   shootingDelay: 2
@@ -398,6 +399,8 @@ MonoBehaviour:
   magazineSize: 7
   bulletsLeft: 0
   isReloading: 0
+  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnRotation: {x: 0, y: 0, z: 0}
   thisWeaponModel: 2
   currentShootingMode: 0
 --- !u!95 &7796491196620682838
@@ -432,7 +435,7 @@ GameObject:
   - component: {fileID: 1931699177159160822}
   - component: {fileID: 6679093207617138643}
   - component: {fileID: 7002279215364975560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzleFlashEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1490673029144807454}
   - component: {fileID: 3319977387880129083}
   - component: {fileID: 5319137575570575405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Magazin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4562982259840231006}
   - component: {fileID: 5546802739816268003}
   - component: {fileID: 707750783603979684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stock_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 2438646601369356551}
   - component: {fileID: 7925970841458633394}
   - component: {fileID: 465901718460271452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Uzi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf34782af02c0c47917978eb56258f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 0}
+  isActiveWeapon: 0
   isShooting: 0
   readyToShoot: 0
   shootingDelay: 0.1
@@ -279,6 +279,14 @@ MonoBehaviour:
   bulletSpawn: {fileID: 5416088204151189044}
   bulletVelocity: 500
   bulletPrefabLifeTime: 3
+  muzzleEffect: {fileID: 0}
+  reloadTime: 0
+  magazineSize: 0
+  bulletsLeft: 0
+  isReloading: 0
+  spawnPosition: {x: 0, y: 0, z: 0}
+  spawnRotation: {x: 0, y: 0, z: 0}
+  thisWeaponModel: 0
   currentShootingMode: 2
 --- !u!1 &4383012992609869531
 GameObject:
@@ -289,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5416088204151189044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +330,7 @@ GameObject:
   - component: {fileID: 6505237602918501439}
   - component: {fileID: 5330479099204196664}
   - component: {fileID: 5037378316261144853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +414,7 @@ GameObject:
   - component: {fileID: 1474300810591422201}
   - component: {fileID: 6780887464333212064}
   - component: {fileID: 7463385136695521208}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +497,7 @@ GameObject:
   - component: {fileID: 3756099865316851294}
   - component: {fileID: 351668924371305886}
   - component: {fileID: 3847149634516267593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
