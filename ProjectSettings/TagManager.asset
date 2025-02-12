@@ -3,28 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Target
-  - Wall
-  - Beer
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
-  - WeaponRender
   - 
   - 
+  - Reflection_Probes
+  - Lighting
+  - Props
+  - ReflectedInWater
+  - Ground
+  - AccessibleVolume
+  - PostProcessing
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MainGround
   - 
   - 
   - 
