@@ -134,6 +134,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3552426462918747661, guid: b2c98a43e7a97e94280599e0429f11b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 72e1dae562e115849a48d1be14a9d4f4, type: 2}
     - target: {fileID: -2812438464569214568, guid: b2c98a43e7a97e94280599e0429f11b3,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -169,6 +174,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -252511803182613850, guid: b2c98a43e7a97e94280599e0429f11b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: cf3f4e1580d46084b91048a0dec6aaca, type: 2}
+    - target: {fileID: 4875526081656487147, guid: b2c98a43e7a97e94280599e0429f11b3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 732533fa863a6eb4c9ae92c676a81a00, type: 2}
     - target: {fileID: 5133655447531084853, guid: b2c98a43e7a97e94280599e0429f11b3,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -211,6 +226,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 4969616693118217478}
+    - targetCorrespondingSourceObject: {fileID: -2812438464569214568, guid: b2c98a43e7a97e94280599e0429f11b3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 178693280492053287}
   m_SourcePrefab: {fileID: 100100000, guid: b2c98a43e7a97e94280599e0429f11b3, type: 3}
 --- !u!1 &7024312723047981415 stripped
 GameObject:
@@ -240,6 +259,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3745445893569353416, guid: b2c98a43e7a97e94280599e0429f11b3, type: 3}
+--- !u!114 &178693280492053287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024312723047981415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fff89cdfbbcaa24cbae8518c257b75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quality: 0.3
 --- !u!4 &9005472901354583013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b2c98a43e7a97e94280599e0429f11b3,

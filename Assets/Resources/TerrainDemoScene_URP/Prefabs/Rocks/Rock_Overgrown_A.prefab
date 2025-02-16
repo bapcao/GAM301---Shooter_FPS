@@ -113,7 +113,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4300000, guid: d18298dd2b37cac4f95724852b499a32, type: 2}
+      objectReference: {fileID: 4300000, guid: 1d844b338ee58bf40b1ac130b1f295de, type: 2}
     - target: {fileID: -3094173192929562565, guid: 249458d5129350f42a5146a75f8b4710,
         type: 3}
       propertyPath: m_Layer
@@ -138,7 +138,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4300000, guid: c7e807bf9437a5b458208a1ea47f40ed, type: 2}
+      objectReference: {fileID: 4300000, guid: 2b5703f69682e544fbee1ee2d86ce3ff, type: 2}
     - target: {fileID: -927199367670048503, guid: 249458d5129350f42a5146a75f8b4710,
         type: 3}
       propertyPath: m_Name
@@ -178,7 +178,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 4300000, guid: d887a6d7db376544ea3e9f9a95627a5c, type: 2}
+      objectReference: {fileID: 4300000, guid: 60168e33c3a31b548b0d0cf2c34116be, type: 2}
     - target: {fileID: 4540967297616445612, guid: 249458d5129350f42a5146a75f8b4710,
         type: 3}
       propertyPath: m_ProbeAnchor
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fff89cdfbbcaa24cbae8518c257b75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quality: 0.1
+  _quality: 0.5
 --- !u!23 &7834742226320105909 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -909231065419568762, guid: 249458d5129350f42a5146a75f8b4710,
